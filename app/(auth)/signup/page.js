@@ -30,7 +30,7 @@ const Register = () => {
   };
 
   return (
-    <>
+    <div className="bg-[#F7F8F9]">
       <div className="px-[20px] w-full flex flex-col bg-[#F7F8F9]">
         <div className="mt-[40px] font-medium text-[28px] text-[#1D2226]">
           Create your
@@ -159,7 +159,7 @@ const Register = () => {
             Create Account
           </button>
         </div>
-    </>
+    </div>
   );
 };
 
